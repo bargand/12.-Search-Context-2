@@ -6,7 +6,7 @@ const CategorySearch = ({ category }) => {
 
   // Example data for each category (You can replace this with actual data)
   const data = category === 'category1' ? [
-    { main: 'Debargha Nandi', sub: 'Sub content for Debargha' },
+    { main: 'Debargha Nandi', sub: 'Sub content for Debargha Nandi' },
     { main: 'Riya Nandi', sub: 'Sub content for Riya' },
     { main: 'Mukta Das', sub: 'Sub content for Mukta' }
   ] : category === 'category2' ? [
