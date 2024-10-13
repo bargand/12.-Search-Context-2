@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
-    <nav className="navbar bg-body-tertiary fixed-top">
+    <nav className="navbar bg-body-tertiary fixed-top px-2">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
-          Searchalu
+          Bargand
         </NavLink>
         <button
           className="navbar-toggler"

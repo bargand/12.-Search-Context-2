@@ -5,13 +5,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 200px;
   overflow: hidden;
 
 }
 
 .cards-container {
-  width: 70%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,13 +34,13 @@
 }
 
 .card button {
-  background-color: #007bff;
+  background-color: rgb(0, 255, 162);
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 10px 100px;
+  border-radius: 50px 5px 50px 5px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
   /* Use elements in a new way */
   &:hover {
@@ -51,7 +50,7 @@
 
 /* main page full container */
 
-@media (max-width: 500px) {
+@media (max-width: 960px) {
   .main-container {
     flex-direction: column;
     margin-top: 100px;
