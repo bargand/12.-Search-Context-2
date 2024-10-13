@@ -5,11 +5,11 @@ const CategorySearch = ({ category }) => {
   const [searchInput, setSearchInput] = useState('');
 
   // Example data for each category (You can replace this with actual data)
-  const data = category === 'category1' ? [
+  const data = category === 'genetics' ? [
     { main: 'Debargha Nandi', sub: 'Sub content for Debargha Nandi' },
     { main: 'Riya Nandi', sub: 'Sub content for Riya' },
     { main: 'Mukta Das', sub: 'Sub content for Mukta' }
-  ] : category === 'category2' ? [
+  ] : category === 'plantbreeding' ? [
     { main: 'IFFCO', sub: 'Indian Farmers Fertiliser Cooperative' },
     { main: 'KRIBHCO', sub: 'Krishak Bharati Cooperative Limited' }
   ] : [

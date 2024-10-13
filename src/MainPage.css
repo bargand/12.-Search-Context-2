@@ -1,44 +1,67 @@
 .main-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .cards-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .card {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .card h3 {
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    font-size: 1rem;
-    margin: 10px 0;
-  }
-  
-  .card button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .card button:hover {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  overflow: hidden;
+
+}
+
+.cards-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 50px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+
+  /* Use elements in a new way */
+  &:hover {
     background-color: #0056b3;
   }
-  
+}
+
+/* main page full container */
+
+@media (max-width: 500px) {
+  .main-container {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .cards-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .card {
+    width: 80%;
+  }
+}
