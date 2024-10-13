@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './MainPage';
 import CategorySearch from './CategorySearch';
@@ -9,9 +10,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/search/genetics" element={<CategorySearch category="Genetics" />} />
-        <Route path="/search/plantbreeding" element={<CategorySearch category="Plant Breeding" />} />
-        <Route path="/search/cytogenetics" element={<CategorySearch category="Cytogenetics" />} />
+        <Route path="/search/category1" element={<CategorySearch category="Genetics" />} />
+        <Route path="/search/category2" element={<CategorySearch category="Plant Breeding" />} />
+        <Route path="/search/category3" element={<CategorySearch category="Cytogenetics" />} />
       </Routes>
     </Router>
   );

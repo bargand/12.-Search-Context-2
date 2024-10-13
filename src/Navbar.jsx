@@ -37,17 +37,17 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/genetics">
+                <NavLink className="nav-link active" aria-current="page" to="/search/category1">
                   Genetics
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/plantbreeding">
+                <NavLink className="nav-link active" aria-current="page" to="/search/category2">
                   Plant Breeding
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/cytogenetics">
+                <NavLink className="nav-link active" aria-current="page" to="/search/category3">
                   Cytogenetics
                 </NavLink>
               </li>
