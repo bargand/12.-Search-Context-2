@@ -15,3 +15,6 @@ body {
   animation: gradient 15s ease infinite;
 }
 
+.search-container #contentList{
+  padding-left: 0rem;
+}

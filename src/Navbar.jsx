@@ -1,6 +1,17 @@
-import React from "react";
-import { NavLink } from 'react-router-dom';
+import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is loaded
+
 const Navbar = () => {
+  const offcanvasRef = useRef(null);
+
+  const closeOffcanvas = () => {
+    const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasRef.current);
+    if (bsOffcanvas) {
+      bsOffcanvas.hide();
+    }
+  };
+
   return (
     <nav className="navbar bg-body-tertiary fixed-top px-2">
       <div className="container-fluid">
@@ -20,6 +31,7 @@ const Navbar = () => {
         <div
           className="offcanvas offcanvas-end"
           tabIndex="-1"
+          ref={offcanvasRef}
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
@@ -32,22 +44,38 @@ const Navbar = () => {
               className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
+              onClick={closeOffcanvas}
             ></button>
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/category1">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/search/category1"
+                  onClick={closeOffcanvas}
+                >
                   Genetics
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/category2">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/search/category2"
+                  onClick={closeOffcanvas}
+                >
                   Plant Breeding
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/search/category3">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/search/category3"
+                  onClick={closeOffcanvas}
+                >
                   Cytogenetics
                 </NavLink>
               </li>
