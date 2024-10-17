@@ -651,6 +651,510 @@ const CategorySearch = ({ category }) => {
           { main: "Apomixis, Hybridization And Polyploidy", sub: "(Page-285)" },
           { main: "Apomixis, Environment And Adaptation", sub: "(Page-286)" },
           { main: "Apomixis In Plant Breeding", sub: "(Page-287)" },
+          {
+            main: "Nuclear DNA Content And Its Organization",
+            sub: "(Page-291-317)",
+          },
+          {
+            main: "Nuclear DNA Content And C Value Paradox",
+            sub: "(Page-292)",
+          },
+          { main: "C-Value Paradox", sub: "(Page-293)" },
+          {
+            main: "Nuclear DNA Vs Chromosome Length/Area/Volume",
+            sub: "(Page-294)",
+          },
+          { main: "Nuclear DNA Vs G/C-Bands", sub: "(Page-294)" },
+          { main: "DNA Contents In Related Species", sub: "(Page-294)" },
+          { main: "DNA Content And Polyploidy", sub: "(Page-295)" },
+          { main: "Chromosomal DNA And Evolution", sub: "(Page-295)" },
+          {
+            main: "DNA Content (Genome Size) And Adaptability",
+            sub: "(Page-295)",
+          },
+          {
+            main: "Repetitive DNA Technique For Detecting Repetitive DNA",
+            sub: "(Page-296)",
+          },
+          {
+            main: "Chemical Complexity Vs. Sequence (Kinetic) Complexity",
+            sub: "(Page-298)",
+          },
+          {
+            main: "Interspersion Of Repetitive And Single Copy Sequences",
+            sub: "(Page-300)",
+          },
+          { main: "The Nucleosome: Sub-Unit Of Chromatin", sub: "(Page-304)" },
+          { main: "Basic Structure Of A Nucleosome", sub: "(Page-304)" },
+          { main: "Core Particle", sub: "(Page-304)" },
+          { main: "Spatial Arrangement Of Histones", sub: "(Page-306)" },
+          {
+            main: "Relation Between Different Nucleosomes (Chromatosome Or Chromatin Particle)",
+            sub: "(Page-307)",
+          },
+          {
+            main: "Folding Of Nucleosome Arrays (Solenoid Model)",
+            sub: "(Page-308)",
+          },
+          {
+            main: "Loops, Domains And Scaffolds In Chromatin",
+            sub: "(Page-308)",
+          },
+          {
+            main: "Chromatin Replication And Nucleosome Assembly",
+            sub: "(Page-309)",
+          },
+          {
+            main: "Phasing And Modification Of Nucleosomes In Active Genes",
+            sub: "(Page-309)",
+          },
+          { main: "Split Genes Or Interrupted Genes", sub: "(Page-313)" },
+          { main: "Exons And Introns", sub: "(Page-313)" },
+          { main: "Discovery Of Split Genes", sub: "(Page-314)" },
+          {
+            main: "R-Loop Mapping And Restriction Mapping Of Interrupted Genes",
+            sub: "(Page-315)",
+          },
+          {
+            main: "Structure Of Chicken Ovalbumin Split Gene",
+            sub: "(Page-317)",
+          },
+
+          { main: "DNA-Based Molecular Markers", sub: "(Page-318-330)" },
+          { main: "Development Of Markers (1980-2020)", sub: "(Page-318)" },
+          {
+            main: "First Generation Markers: RFLPs And RAPDs",
+            sub: "(Page-319)",
+          },
+          {
+            main: "Second-Generation Markers: SSR/STR, AFLP, STS",
+            sub: "(Page-321)",
+          },
+          {
+            main: "Third Generation Markers: SNPs (Single Nucleotide Polymorphisms)",
+            sub: "(Page-324)",
+          },
+          {
+            main: "Fourth Generation Markers: Array-Based Markers (SNPs, DArT)",
+            sub: "(Page-325)",
+          },
+          {
+            main: "Fifth Generation Markers: ISBP, CNV And PAV Markers",
+            sub: "(Page-329)",
+          },
+          { main: "Uses Of Molecular Markers", sub: "(Page-330)" },
+          { main: "Diagnostics, Forensics And MAS", sub: "(Page-330)" },
+          { main: "Construction Of Molecular Maps", sub: "(Page-330)" },
+          { main: "Evolutionary Studies", sub: "(Page-330)" },
+
+          {
+            main: "Genetic, Cytogenetic And Physical Maps Involving DNA Markers",
+            sub: "(Page-331-361)",
+          },
+          {
+            main: "What Are Genetic, Cytogenetic And Physical Maps?",
+            sub: "(Page-331)",
+          },
+          { main: "Mapping Populations", sub: "(Page-332)" },
+          { main: "Mapping Panels In Humans", sub: "(Page-333)" },
+          { main: "Mapping Populations In Animals", sub: "(Page-333)" },
+          { main: "Mapping Populations In Plants", sub: "(Page-333)" },
+          { main: "Genetic Maps", sub: "(Page-334)" },
+          { main: "Approaches For Genetic Mapping", sub: "(Page-335)" },
+          {
+            main: "Computer Software For Construction Of Genetic Maps",
+            sub: "(Page-335)",
+          },
+          { main: "Genetic Maps Already Developed", sub: "(Page-335)" },
+          { main: "Cytogenetic Maps", sub: "(Page-343)" },
+          {
+            main: "Cytogenetic Maps Using Chromosome Specific Markers",
+            sub: "(Page-343)",
+          },
+          { main: "Physical Maps", sub: "(Page-345)" },
+          {
+            main: "Top Down (Restriction Mapping) Vs. Bottom Up (Contig Mapping) Approaches",
+            sub: "(Page-345)",
+          },
+          {
+            main: "Physical Maps Of Human Genes Using Deletions",
+            sub: "(Page-346)",
+          },
+          {
+            main: "Physical Maps Of Wheat Genome Using Aneuploid And Deletion Stocks",
+            sub: "(Page-346)",
+          },
+          {
+            main: "Physical Maps Using In Situ Hybridization (Work)",
+            sub: "(Page-347)",
+          },
+          { main: "Physical Maps Using FISH", sub: "(Page-349)" },
+          {
+            main: "Physical Maps By Chromosome Fragmentation",
+            sub: "(Page-350)",
+          },
+          {
+            main: "Physical Mapping Of Chromosome Ends Using Telomeric DNA Fragments",
+            sub: "(Page-351)",
+          },
+          {
+            main: "Physical Maps Using Radiation Hybrids (RHS)",
+            sub: "(Page-351)",
+          },
+          { main: "Physical Maps Using Happy Mapping", sub: "(Page-354)" },
+          { main: "BAC-Based Physical Mapping", sub: "(Page-355)" },
+          { main: "Physical Maps Using Optical Mapping", sub: "(Page-356)" },
+          {
+            main: "Physical Mapping By Chromatin Contacts (Hi-C)",
+            sub: "(Page-360)",
+          },
+
+          {
+            main: "Linkage-Based QTL Mapping (Single Marker Analysis And Interval Mapping)",
+            sub: "(Page-362-379)",
+          },
+          { main: "Single Marker Analysis (SMA)", sub: "(Page-362)" },
+          { main: "Genetic Model For SMA", sub: "(Page-363)" },
+          {
+            main: "SMA Using Joint Segregation Of Marker And QTL Loci",
+            sub: "(Page-363)",
+          },
+          { main: "Bulked Segregant Analysis (BSA)", sub: "(Page-368)" },
+          { main: "Statistical Model", sub: "(Page-369)" },
+          {
+            main: "Statistical Significance (Type I And Type II Errors)",
+            sub: "(Page-369)",
+          },
+          { main: "Advantages And Disadvantages Of SMA", sub: "(Page-370)" },
+          { main: "Interval Mapping", sub: "(Page-370)" },
+          { main: "Simple Interval Mapping (SIM)", sub: "(Page-371)" },
+          { main: "Composite Interval Mapping (CIM)", sub: "(Page-373)" },
+          {
+            main: "Two-Locus Analysis (QTls Involved In Epistasis)",
+            sub: "(Page-376)",
+          },
+          {
+            main: "Multiple Interval Mapping (MIM) Using QTL Cartographer",
+            sub: "(Page-376)",
+          },
+          {
+            main: "QTLmapper And QTL Network For Epistatic QTL",
+            sub: "(Page-376)",
+          },
+          { main: "Mapping QTls In Multiple Environments", sub: "(Page-376)" },
+          { main: "Nature And Size Of Mapping Populations", sub: "(Page-377)" },
+          { main: "Nature Of Mapping Population", sub: "(Page-377)" },
+          { main: "Size Of Mapping Population", sub: "(Page-377)" },
+          {
+            main: "The Beavis Effect (Power And Repeatability Of QTls)",
+            sub: "(Page-377)",
+          },
+          { main: "Other Methods Of QTL Mapping", sub: "(Page-378)" },
+          { main: "Bayesian Approach", sub: "(Page-378)" },
+          { main: "AB-QTL Analysis", sub: "(Page-378)" },
+          {
+            main: "QTL Analysis For Continuous QTs Vs Binary/Ordinal QTs",
+            sub: "(Page-378)",
+          },
+          { main: "Software For QTL Analysis", sub: "(Page-378)" },
+          {
+            main: "Linkage Disequilibrium (Ld) And Association Mapping",
+            sub: "(Page-380-393)",
+          },
+          { main: "Linkage Disequilibrium (Ld)", sub: "(Page-380)" },
+          {
+            main: "Detection And Estimation Of Ld (Two-Locus Methods)",
+            sub: "(Page-381)",
+          },
+          { main: "Ld And Recombination", sub: "(Page-382)" },
+          { main: "Testing Significance Of Ld", sub: "(Page-383)" },
+          { main: "Two Ways To Visualize Or Depict Ld", sub: "(Page-384)" },
+          { main: "Factors Affecting Ld", sub: "(Page-385)" },
+          { main: "Association Mapping", sub: "(Page-385)" },
+          {
+            main: "Observational Studies (Population-Based Association Studies)",
+            sub: "(Page-385)",
+          },
+          { main: "Genome-Wide Association Studies (Gwas)", sub: "(Page-386)" },
+
+          {
+            main: "High Resolution Mapping And Map-Based Cloning Of Qtls",
+            sub: "(Page-394-406)",
+          },
+          { main: "What Is High Resolution Mapping?", sub: "(Page-394)" },
+          { main: "Methods For High Resolution Mapping", sub: "(Page-395)" },
+          {
+            main: "Requirements For High Resolution Mapping",
+            sub: "(Page-395)",
+          },
+          {
+            main: "Selective Recombinant Genotyping (Srg) For High Resolution Mapping",
+            sub: "(Page-395)",
+          },
+          {
+            main: "Populations Used For High Resolution Mapping Using Recombinant Lines",
+            sub: "(Page-395)",
+          },
+          {
+            main: "High Resolution Qtl Mapping: Sliding Window Approach",
+            sub: "(Page-400)",
+          },
+          { main: "Map-Based Cloning Of Qtl", sub: "(Page-400)" },
+          { main: "Requirements For Map-Based Cloning", sub: "(Page-401)" },
+          {
+            main: "Different Approaches For Identification Of Clones For Map-Based Cloning",
+            sub: "(Page-402)",
+          },
+          { main: "Cloned Qtls In Crops", sub: "(Page-404)" },
+          {
+            main: "Functional Complementation Of Isolated Genes",
+            sub: "(Page-404)",
+          },
+
+          { main: "Dna Sequencing Technologies", sub: "(Page-407-419)" },
+          { main: "First Generation Dna Sequencing", sub: "(Page-407)" },
+          {
+            main: "Maxam And Gilbert's Chemical Degradation Method",
+            sub: "(Page-408)",
+          },
+          {
+            main: "Sanger's Dideoxynucleotide Synthetic Method",
+            sub: "(Page-409)",
+          },
+          { main: "Automatic Dna Sequencers", sub: "(Page-410)" },
+          {
+            main: "Second Generation Sequencing (Short Read Sequencing)",
+            sub: "(Page-411)",
+          },
+          {
+            main: "Third Generation Sequencing (Long Read Sequencing)",
+            sub: "(Page-415)",
+          },
+          { main: "Sequencing By Synthesis (Sbs)", sub: "(Page-415)" },
+          {
+            main: "Nanopore Sequencing (Several Approaches)",
+            sub: "(Page-416)",
+          },
+
+          {
+            main: "Cytogenomics: 1. Whole Genome Sequencing (Wgs)",
+            sub: "(Page-420-440)",
+          },
+          { main: "Methods For Whole Genome Sequencing", sub: "(Page-421)" },
+          {
+            main: "'Map First Sequence Later' Or 'Clone By Clone' Strategy ('Hierarchical Shotgun Sequencing')",
+            sub: "(Page-421)",
+          },
+          { main: "Whole-Genome Shotgun (Wgs) Sequencing", sub: "(Page-421)" },
+          { main: "Reference Genomes", sub: "(Page-422)" },
+          { main: "From Whole Genomes To Pan-Genomes", sub: "(Page-422)" },
+          { main: "Methods For Development Of Pan-Genomes", sub: "(Page-423)" },
+          { main: "Human Genome", sub: "(Page-423)" },
+          { main: "The 1000 Genome Project And Igsr", sub: "(Page-425)" },
+          { main: "Gnomad (Including Exac)", sub: "(Page-425)" },
+          {
+            main: "Human Heredity And Health Africa (H3africa)",
+            sub: "(Page-426)",
+          },
+          { main: "Indigenome Project Of Csir In India", sub: "(Page-426)" },
+          { main: "Genome India Project", sub: "(Page-426)" },
+          { main: "Human Pan-Genome", sub: "(Page-427)" },
+          { main: "Personal Genomics", sub: "(Page-427)" },
+          { main: "Cost Of Sequencing A Human Genome", sub: "(Page-428)" },
+          { main: "Ethical Issues In Personal Genomics", sub: "(Page-428)" },
+          {
+            main: "Bacterial Genes Transferred To Human Genome",
+            sub: "(Page-429)",
+          },
+          { main: "Human Microbiome: Our Second Genome", sub: "(Page-429)" },
+          { main: "Non-Human Animal Genomes", sub: "(Page-429)" },
+          { main: "Pan-Genomes Of Animals", sub: "(Page-429)" },
+          {
+            main: "Genome Of Some Model Animals And Primates",
+            sub: "(Page-430)",
+          },
+          {
+            main: "Comparison Of Genomes Of Chimpanzee And Macaque With Human Genome",
+            sub: "(Page-432)",
+          },
+          {
+            main: "Genomes Of Other Animals (Sequenced During 2000-2015)",
+            sub: "(Page-432)",
+          },
+          {
+            main: "Genome Similarity, Evolution And Divergence Among Animals Including Humans",
+            sub: "(Page-434)",
+          },
+          { main: "Major Animal Genome Projects", sub: "(Page-434)" },
+          { main: "Plant Genomes", sub: "(Page-435)" },
+          { main: "Genomes Of Horticultural Plants", sub: "(Page-436)" },
+          { main: "1000 Plant (1kp) Genomes Project", sub: "(Page-436)" },
+          { main: "10,000 Plant (10kp) Project", sub: "(Page-436)" },
+          {
+            main: "Pan-Genomes And Super Pan-Genomes In Plant Sequenced (2014-2020)",
+            sub: "(Page-436)",
+          },
+          { main: "Earth Biogenome Project (Ebp)", sub: "(Page-437)" },
+          {
+            main: "Indian Initiative To Sequences Animal And Plant Genomes",
+            sub: "(Page-437)",
+          },
+          { main: "Comparative Genomics", sub: "(Page-437)" },
+          {
+            main: "Homology, Orthology And Paralogy Among Genome Sequences",
+            sub: "(Page-437)",
+          },
+          {
+            main: "Methods Used For Inferring Orthology Vs Paralogy",
+            sub: "(Page-438)",
+          },
+          {
+            main: "Cytogenomics: Structural Variations (SVs)",
+            sub: "(Page-441-456)",
+          },
+          { main: "What Are SVs?", sub: "(Page-441)" },
+          { main: "History Of SVs", sub: "(Page-442)" },
+          { main: "Types Of SVs", sub: "(Page-442)" },
+          { main: "Deletions And Duplications", sub: "(Page-442)" },
+          {
+            main: "Balanced Rearrangements (Inversions And Interchanges)",
+            sub: "(Page-445)",
+          },
+          { main: "CNVs And PAVs", sub: "(Page-445)" },
+          { main: "Computational Methods", sub: "(Page-448)" },
+          {
+            main: "Methods For Detection And Characterization Of SVs",
+            sub: "(Page-445)",
+          },
+          {
+            main: "Experimental Methods For Detection Of SVs",
+            sub: "(Page-446)",
+          },
+          { main: "Uses Of SVs", sub: "(Page-454)" },
+          { main: "Sequencing-Based SVs For GWAS", sub: "(Page-454)" },
+          { main: "SVs For Human Diseases", sub: "(Page-454)" },
+          {
+            main: "Manipulation/Editing Of SVs Using CRISPR/Cas",
+            sub: "(Page-455)",
+          },
+          { main: "SVs In Mouse", sub: "(Page-452)" },
+          { main: "SVs In Cattle", sub: "(Page-452)" },
+          { main: "SVs In Plant Genomes", sub: "(Page-452)" },
+          { main: "SVs In Arabidopsis", sub: "(Page-452)" },
+          { main: "SVs In Maize", sub: "(Page-453)" },
+          { main: "SVs In Cotton", sub: "(Page-453)" },
+          { main: "SVs In Banana", sub: "(Page-453)" },
+          { main: "SVs In Rice", sub: "(Page-453)" },
+          { main: "SVs In Soybean", sub: "(Page-454)" },
+          { main: "SVs In Humans", sub: "(Page-451)" },
+          {
+            main: "SVs In Humans, Mouse SVs For Plant Breeding And Cattle",
+            sub: "(Page-455)",
+          },
+
+          { main: "Cytogenomics: Paleopolyploidy", sub: "(Page-457-468)" },
+          {
+            main: "Recent Vs Ancient Polyploidy (Paleopolyploidy)",
+            sub: "(Page-457)",
+          },
+          {
+            main: "Main Features Of Palaeo Polyploid Genomes",
+            sub: "(Page-458)",
+          },
+          {
+            main: "Methods For Detecting Ancient Polyploidy Events",
+            sub: "(Page-459)",
+          },
+          {
+            main: "Map-Based Approaches (Identification Of Syntenous/Collinear Blocks Of Genes)",
+            sub: "(Page-459)",
+          },
+          {
+            main: "Tree-Based (Phylogenetic) Approach And The 2R Hypothesis",
+            sub: "(Page-459)",
+          },
+          { main: "Age-Based Computational Approach", sub: "(Page-461)" },
+          { main: "Occurrence Of Paleopolyploidy", sub: "(Page-462)" },
+          { main: "Paleopolyploidy In Yeast", sub: "(Page-463)" },
+          {
+            main: "Paleopolyploidy In Amborella (Earliest Primitive Angiosperm)",
+            sub: "(Page-464)",
+          },
+          { main: "Paleopolyploidy In Monocots And Dicots", sub: "(Page-464)" },
+          {
+            main: "Paleopolyploidy In Animals (Vertebrates And Insects)",
+            sub: "(Page-466)",
+          },
+          {
+            main: "Orthologs And Paralogs Due To Paleopolyploidy Problems",
+            sub: "(Page-468)",
+          },
+
+          {
+            main: "Cytogenomics: Synthesis Of Microbial Genomes And Eukaryotic Chromosomes",
+            sub: "(Page-469-482)",
+          },
+          {
+            main: "Techniques Used For Synthesis Of Genomes",
+            sub: "(Page-470)",
+          },
+          { main: "Polymerase Cycling Assembly (PCA)", sub: "(Page-470)" },
+          { main: "Gibson Assembly Method", sub: "(Page-471)" },
+          {
+            main: "Steps For Designing And Synthesis Of Genomes",
+            sub: "(Page-472)",
+          },
+          { main: "Services For Genome Synthesis", sub: "(Page-472)" },
+          { main: "Synthesis Of Microbial Genomes", sub: "(Page-472)" },
+          {
+            main: "Synthesis Of A Bacterial Genome (Mycoplasma Genitalium)",
+            sub: "(Page-474)",
+          },
+          {
+            main: "Synthesis Of A Minimal Genome (Mycoplasma Genitalium)",
+            sub: "(Page-474)",
+          },
+          { main: "Synthesis Of Eukaryotic Chromosomes", sub: "(Page-474)" },
+          { main: "Synthesis Of Two Algal Chromosomes", sub: "(Page-474)" },
+          { main: "Synthesis Of Yeast Chromosomes", sub: "(Page-476)" },
+          {
+            main: "Fusion Of All Yeast Chromosomes In One Or Two Chromosomes",
+            sub: "(Page-479)",
+          },
+          {
+            main: "Future Plan For Synthesis Of A Minimized Yeast Genome: SC 3.0 (2020)",
+            sub: "(Page-479)",
+          },
+          { main: "Synthesis Of A Maize Minichromosome", sub: "(Page-480)" },
+          {
+            main: "Power Of Synthetic Genomics For Metabolic Engineering",
+            sub: "(Page-481)",
+          },
+
+          {
+            main: "Cytogenomics: 3D Chromosome Conformations (Chromosomics)",
+            sub: "(Page-483-595)",
+          },
+          {
+            main: "Technology For 3D Chromosome Conformations",
+            sub: "(Page-484)",
+          },
+          { main: "Technologies Using Tissues", sub: "(Page-484)" },
+          { main: "Technologies Using Single Cells", sub: "(Page-488)" },
+          {
+            main: "'GAM' And 'SPRITE': For Study Of 3D Structure",
+            sub: "(Page-490)",
+          },
+          {
+            main: "3D Structure Of Plant And Animal Genomes",
+            sub: "(Page-492)",
+          },
+          { main: "A/B Compartments", sub: "(Page-492)" },
+          {
+            main: "Topologically Associated Domains (TADs And Meta-TADs)",
+            sub: "(Page-493)",
+          },
+          { main: "Loops", sub: "(Page-494)" },
         ];
 
   const handleSearch = (event) => {
